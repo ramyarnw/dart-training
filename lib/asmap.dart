@@ -5,7 +5,7 @@ void main()
   var map1 = map.keys.toList(); // [0, 1, 2, 3]
   print(map1);
   final terrestrial = <int, String>{1: 'Mercury', 0: 'Venus', 10: 'Earth'};
-  terrestrial.removeWhere((key, value) => value==0);
+  terrestrial.removeWhere((int key, String value) => key==0);
   print(terrestrial);
 
 }

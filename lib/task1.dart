@@ -1,6 +1,5 @@
 void main()
 {
-  void addEntries(Iterable<MapEntry<K, V>> newEntries);
   final Map<int,String>veg={1:'carrot',2:'beet',3:'broccoli'};
   print(veg);
   print(veg.containsValue('carrot'));

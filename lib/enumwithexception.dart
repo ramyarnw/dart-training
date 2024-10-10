@@ -4,11 +4,9 @@ enum OptionColor{
   //green
 }
 extension SelectOptionColor on OptionColor{
-  //String get name => describeEnum(this);
-  static String t = OptionColor.values as String;
 
   String get displayTitle {
-    switch (t) {
+    switch (this) {
       case OptionColor.red:
         return 'red';
       case OptionColor.blue:
@@ -23,6 +21,14 @@ extension SelectOptionColor on OptionColor{
 }
 void main()
 {
-  print(OptionColor.values);
-  dynamic t;
+  print("qwertyuio".everAl);
+
+  print(OptionColor.red.displayTitle);
+}
+
+
+extension StringUI on String{
+String  get everAl {
+  return this;
+}
 }

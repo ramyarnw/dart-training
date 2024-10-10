@@ -18,12 +18,12 @@ void main() {
     }
     t = number;
     while (t > 0) {
-      last = t % ~10;
+      last = t % 10;
       sum = sum + pow(last, digit) as int;
       t = t ~/ 10;
     }
 
-    if (num == sum)
+    if (number == sum)
       stdout.write("arm");
     else
       stdout.write("not");
